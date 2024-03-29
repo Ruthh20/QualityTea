@@ -1,0 +1,204 @@
+*{
+  overflow-x: hidden ;
+  overflow-y: none ;
+  background-color:#82b97b;
+}
+
+.heading{
+  text-align: center;
+  font-size: 52px;
+  margin-top: 28px;
+  margin-left: 0px;
+   margin-right:78%; 
+}
+.heading:hover{
+  font-size: 54px;
+  transition: 0.2s;
+}
+
+.hero{
+  background-image: url(bg\ tea.webp);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size:cover;
+  height: 925px;
+  width: 100%;
+  /* margin: 0 15px 0 15px; */
+}
+
+/* About section */
+.about{
+  font-family: poppins ;
+  font-size: 20px;
+  overflow: auto;
+  display: flex;
+}
+.abttea{
+  height: 320px;
+  width: 160%;
+  margin-right: 10px;
+  margin-top: 103px;
+  float: left;
+}
+.abt-cont{
+  float: right;
+  overflow: hidden;
+  text-align: left;
+}
+/* newsletter, contact us */
+
+h3{
+  text-align: center;
+  margin-right: 90px;
+}
+.container {
+
+  background-color: #f1f1f1;
+}
+
+
+#newsletter{
+font-size: 15px;
+overflow-x: hidden;
+}
+.container {
+  background-color: #f1f1f1;
+}
+.newsletter-img{
+  height: 250px;
+  width: 400px;
+  margin-left: 450px;
+}
+#newsletter{
+  
+}
+.newsect2{
+  margin-right: 100px;
+}
+
+#contact{
+  margin-left: 20%;
+  height: auto;
+}
+.section2{
+  margin-left: 120px;
+}
+.flex{
+  margin-left: 70px;
+}
+h1, h2, h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flex-container{
+  display: flex;
+  
+}
+.flex-container > div { 
+  
+  padding: 20px; 
+  /* margin: 10px 40px 0 40px; */
+  
+}
+
+/* -----------------contact form------------- */ 
+main {
+  /* width: 35%; */
+  /* box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2); */
+  /* margin: 0 auto; */
+  height: auto; 
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-left: 220px;
+  width: auto;
+  padding-left: 80px;
+  margin-top:-50px;
+  overflow-x: hidden;
+ }
+ 
+ h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 0.5rem 2rem;
+ }
+ 
+ form {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  margin-left: 30px;
+  width: 100%;
+  overflow-y: hidden;
+  width: 400px;
+  overflow: hidden;
+ }
+ 
+ .input__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+ }
+ 
+ .input__container label { font-size: 1.3rem; }
+ 
+ .input__container input,
+ textarea {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #555;
+  resize: none;
+ }
+ 
+ button {
+  align-self: flex-start;
+  padding: 1rem 3rem;
+  border-radius: 28px;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+ }
+.tea-logo{
+  height: 170px;
+  margin-top: -18px;
+}
+.foot-sect1{
+  margin-left: 30px;
+}
+i{
+  font-size: 28px;
+  padding: 4px;
+}
+.newsl-form{
+  height: 23px;
+  width: 285px;
+  padding: 10px;
+  border-radius: 40px;
+}
+.news-btn{
+  width: 125px;
+  height: 42px;
+  padding: 10px;
+}
+li{
+  display: inline-block;
+  background-color: transparent;
+  padding: 5px;
+  background-color: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-bar{
+  text-align: right;
+  margin-right: 10px;
+  overflow: hidden;
+  margin-top: 0px;
+  background-color: transparent;
+}
+
+.nav-bar ul li a{
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  position: relative;
+}
